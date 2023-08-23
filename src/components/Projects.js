@@ -15,16 +15,28 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "Letsdev",
+      description: "A web based platform to connect with other developers",
+      imgUrl: projImg3,
+      link:'https://devbuilder.tech'
+    },
+    {
+      title: "Househub",
+      description: "An android application for students or other users to get and share flats",
+      imgUrl: projImg3,
+      link:'https://vidstore.netlify.app'
+    },
+    {
       title: "Food Delivery",
       description: "Angular,Nodejs,Mongodb",
       imgUrl: projImg1,
       link:'https://instant-food.netlify.app'
     },
     {
-      title: "E-Commerce Website",
-      description: "React,Tailwind CSS,MaterialUI,Nodejs,MongoDb",
-      imgUrl: projImg2,
-      link:'https://e-shopreact.netlify.app'
+      title: "News Today",
+      description: "React, Nodejs",
+      imgUrl: projImg3,
+      link:'https://vidstore.netlify.app'
     },
     {
       title: "Youtube Clone",
@@ -32,24 +44,6 @@ export const Projects = () => {
       imgUrl: projImg3,
       link:'https://vidstore.netlify.app'
     },
-    {
-      title: "Weather Forcast Website",
-      description: "Weather API,React",
-      imgUrl: projImg4,
-      link:'https://weather-reciever.netlify.app'
-    },
-    {
-      title: "Real Time Chat",
-      description: "Firebase,React,CSS,Firebase Authentication",
-      imgUrl: projImg5,
-      link:'https://chatapp-msg.netlify.app'
-    },
-    // {
-    //   title: "Netflix Clone",
-    //   description: "Angular,MaterialUI,Nodejs,MovieAPI",
-    //   imgUrl: projImg6,
-    //   link:''
-    // },
   ];
 
   return (
